@@ -1,0 +1,486 @@
+[
+  {
+    "id": "eval_01_financial_multi_org",
+    "title": "UOB Malaysia, RHB Banking and Maybank execute landmark transaction",
+    "body": "PETALING JAYA: UOB Malaysia, RHB Banking Group and Malayan Banking (Maybank) recently executed the first Malaysia Overnight Rate transaction in Kuala Lumpur on 15 September 2026.",
+    "combined_text": "UOB Malaysia, RHB Banking and Maybank execute landmark transaction\n\nPETALING JAYA: UOB Malaysia, RHB Banking Group and Malayan Banking (Maybank) recently executed the first Malaysia Overnight Rate transaction in Kuala Lumpur on 15 September 2026.",
+    "description": "Financial news with multiple organizations, locations, dates, and repeated entities.",
+    "source_reference": "thesun.my / cdb075afaadfd43289312ebbe235ee8cbb6bcbd710d66e6104b5abee72d65d35",
+    "entities": [
+      {
+        "text": "UOB Malaysia",
+        "label": "ORG",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "RHB Banking",
+        "label": "ORG",
+        "start": 14,
+        "end": 25
+      },
+      {
+        "text": "Maybank",
+        "label": "ORG",
+        "start": 30,
+        "end": 37
+      },
+      {
+        "text": "PETALING JAYA",
+        "label": "GPE",
+        "start": 68,
+        "end": 81
+      },
+      {
+        "text": "UOB Malaysia",
+        "label": "ORG",
+        "start": 83,
+        "end": 95
+      },
+      {
+        "text": "RHB Banking Group",
+        "label": "ORG",
+        "start": 97,
+        "end": 114
+      },
+      {
+        "text": "Malayan Banking",
+        "label": "ORG",
+        "start": 119,
+        "end": 134
+      },
+      {
+        "text": "Maybank",
+        "label": "ORG",
+        "start": 136,
+        "end": 143
+      },
+      {
+        "text": "Malaysia",
+        "label": "GPE",
+        "start": 173,
+        "end": 181
+      },
+      {
+        "text": "Kuala Lumpur",
+        "label": "GPE",
+        "start": 212,
+        "end": 224
+      },
+      {
+        "text": "15 September 2026",
+        "label": "DATE",
+        "start": 228,
+        "end": 245
+      }
+    ]
+  },
+  {
+    "id": "eval_02_political_person",
+    "title": "Equal work and fair compensation discussed in parliament",
+    "body": "Lim Guan Eng, the former finance minister and adviser to the Democratic Action Party, delivered a speech in Penang on Monday.",
+    "combined_text": "Equal work and fair compensation discussed in parliament\n\nLim Guan Eng, the former finance minister and adviser to the Democratic Action Party, delivered a speech in Penang on Monday.",
+    "description": "Article with person name, political organization, location, and date.",
+    "source_reference": "aliran.com / e924da291512116fd16a24184bab3f61e594333c9eadc9605a20c9ac4f128da6",
+    "entities": [
+      {
+        "text": "Lim Guan Eng",
+        "label": "PERSON",
+        "start": 58,
+        "end": 70
+      },
+      {
+        "text": "Democratic Action Party",
+        "label": "ORG",
+        "start": 119,
+        "end": 142
+      },
+      {
+        "text": "Penang",
+        "label": "GPE",
+        "start": 166,
+        "end": 172
+      },
+      {
+        "text": "Monday",
+        "label": "DATE",
+        "start": 176,
+        "end": 182
+      }
+    ]
+  },
+  {
+    "id": "eval_03_sports_and_event",
+    "title": "MHC reschedules Deepavali Day matches after public feedback",
+    "body": "The Malaysian Hockey Confederation confirmed that all MHL matches in Bukit Jalil will be moved to next November.",
+    "combined_text": "MHC reschedules Deepavali Day matches after public feedback\n\nThe Malaysian Hockey Confederation confirmed that all MHL matches in Bukit Jalil will be moved to next November.",
+    "description": "Event (Deepavali Day), sports organizations (MHC, MHL), venue (Bukit Jalil), date (November).",
+    "source_reference": "nst.com.my / a5b98be1fdb08711fa3121bbeb8d082a46814df54fa392ecf136b221dd476386",
+    "entities": [
+      {
+        "text": "MHC",
+        "label": "ORG",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "text": "Deepavali Day",
+        "label": "EVENT",
+        "start": 16,
+        "end": 29
+      },
+      {
+        "text": "Malaysian Hockey Confederation",
+        "label": "ORG",
+        "start": 65,
+        "end": 95
+      },
+      {
+        "text": "MHL",
+        "label": "ORG",
+        "start": 115,
+        "end": 118
+      },
+      {
+        "text": "Bukit Jalil",
+        "label": "LOC",
+        "start": 130,
+        "end": 141
+      },
+      {
+        "text": "November",
+        "label": "DATE",
+        "start": 164,
+        "end": 172
+      }
+    ]
+  },
+  {
+    "id": "eval_04_cimb_merger",
+    "title": "CIMB Group expands digital banking initiatives across ASEAN",
+    "body": "CIMB chief executive Abdul Rahman Ahmad noted that Singapore and Indonesia will drive regional growth throughout 2027.",
+    "combined_text": "CIMB Group expands digital banking initiatives across ASEAN\n\nCIMB chief executive Abdul Rahman Ahmad noted that Singapore and Indonesia will drive regional growth throughout 2027.",
+    "description": "Organization (CIMB Group, CIMB), person (Abdul Rahman Ahmad), countries (Singapore, Indonesia), regional body (ASEAN), date (2027).",
+    "source_reference": "bRQ9afwSIP / Maybank_Malaysia_OnlineMedia",
+    "entities": [
+      {
+        "text": "CIMB Group",
+        "label": "ORG",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "ASEAN",
+        "label": "ORG",
+        "start": 54,
+        "end": 59
+      },
+      {
+        "text": "CIMB",
+        "label": "ORG",
+        "start": 61,
+        "end": 65
+      },
+      {
+        "text": "Abdul Rahman Ahmad",
+        "label": "PERSON",
+        "start": 82,
+        "end": 100
+      },
+      {
+        "text": "Singapore",
+        "label": "GPE",
+        "start": 112,
+        "end": 121
+      },
+      {
+        "text": "Indonesia",
+        "label": "GPE",
+        "start": 126,
+        "end": 135
+      },
+      {
+        "text": "2027",
+        "label": "DATE",
+        "start": 174,
+        "end": 178
+      }
+    ]
+  },
+  {
+    "id": "eval_05_zero_named_entities",
+    "title": "The importance of budgeting and automated personal savings",
+    "body": "Building an emergency fund requires setting aside ten percent of monthly earnings into a high-yield interest account consistently every month without emotional spending.",
+    "combined_text": "The importance of budgeting and automated personal savings\n\nBuilding an emergency fund requires setting aside ten percent of monthly earnings into a high-yield interest account consistently every month without emotional spending.",
+    "description": "Negative case containing zero named entities to test precision and avoid false positives.",
+    "source_reference": "Financial wellness editorial excerpt",
+    "entities": []
+  },
+  {
+    "id": "eval_06_punctuation_and_ambiguity",
+    "title": "BNM, MOF & KAF Investment Bank review credit guidelines",
+    "body": "Officials from Bank Negara Malaysia (BNM) met Dr. Mahathir Mohamad's economic team in Putrajaya on 1st October.",
+    "combined_text": "BNM, MOF & KAF Investment Bank review credit guidelines\n\nOfficials from Bank Negara Malaysia (BNM) met Dr. Mahathir Mohamad's economic team in Putrajaya on 1st October.",
+    "description": "Punctuation, ampersand, abbreviations (BNM, MOF), honorifics (Dr.), and possessive punctuation.",
+    "source_reference": "financial_policy_excerpts",
+    "entities": [
+      {
+        "text": "BNM",
+        "label": "ORG",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "text": "MOF",
+        "label": "ORG",
+        "start": 5,
+        "end": 8
+      },
+      {
+        "text": "KAF Investment Bank",
+        "label": "ORG",
+        "start": 11,
+        "end": 30
+      },
+      {
+        "text": "Bank Negara Malaysia",
+        "label": "ORG",
+        "start": 72,
+        "end": 92
+      },
+      {
+        "text": "BNM",
+        "label": "ORG",
+        "start": 94,
+        "end": 97
+      },
+      {
+        "text": "Mahathir Mohamad",
+        "label": "PERSON",
+        "start": 107,
+        "end": 123
+      },
+      {
+        "text": "Putrajaya",
+        "label": "GPE",
+        "start": 143,
+        "end": 152
+      },
+      {
+        "text": "1st October",
+        "label": "DATE",
+        "start": 156,
+        "end": 167
+      }
+    ]
+  },
+  {
+    "id": "eval_07_malay_csr_foundation",
+    "title": "Maybank Foundation melancarkan inisiatif kelestarian komuniti",
+    "body": "Yayasan Maybank memperuntukkan dana bantuan pendidikan kepada belia di Sabah dan Sarawak bermula September ini.",
+    "combined_text": "Maybank Foundation melancarkan inisiatif kelestarian komuniti\n\nYayasan Maybank memperuntukkan dana bantuan pendidikan kepada belia di Sabah dan Sarawak bermula September ini.",
+    "description": "Malay language news excerpt testing multilingual handling and local state names.",
+    "source_reference": "Maybank Foundation CSR news",
+    "entities": [
+      {
+        "text": "Maybank Foundation",
+        "label": "ORG",
+        "start": 0,
+        "end": 18
+      },
+      {
+        "text": "Yayasan Maybank",
+        "label": "ORG",
+        "start": 63,
+        "end": 78
+      },
+      {
+        "text": "Sabah",
+        "label": "GPE",
+        "start": 134,
+        "end": 139
+      },
+      {
+        "text": "Sarawak",
+        "label": "GPE",
+        "start": 144,
+        "end": 151
+      },
+      {
+        "text": "September",
+        "label": "DATE",
+        "start": 160,
+        "end": 169
+      }
+    ]
+  },
+  {
+    "id": "eval_08_monetary_values",
+    "title": "Public Bank Berhad reports strong dividend payout for shareholders",
+    "body": "Tan Sri Teh Hong Piow founded Public Bank in Malaysia, which announced net earnings of RM2.5 billion for the third quarter of 2026.",
+    "combined_text": "Public Bank Berhad reports strong dividend payout for shareholders\n\nTan Sri Teh Hong Piow founded Public Bank in Malaysia, which announced net earnings of RM2.5 billion for the third quarter of 2026.",
+    "description": "Person name with title, repeated bank name, currency amount, and temporal reference.",
+    "source_reference": "Public Bank media release",
+    "entities": [
+      {
+        "text": "Public Bank Berhad",
+        "label": "ORG",
+        "start": 0,
+        "end": 18
+      },
+      {
+        "text": "Teh Hong Piow",
+        "label": "PERSON",
+        "start": 76,
+        "end": 89
+      },
+      {
+        "text": "Public Bank",
+        "label": "ORG",
+        "start": 98,
+        "end": 109
+      },
+      {
+        "text": "Malaysia",
+        "label": "GPE",
+        "start": 113,
+        "end": 121
+      },
+      {
+        "text": "2026",
+        "label": "DATE",
+        "start": 194,
+        "end": 198
+      }
+    ]
+  },
+  {
+    "id": "eval_09_challenging_acronyms",
+    "title": "MDV collaborates with Bursa Malaysia on tech ecosystem financing",
+    "body": "Malaysia Debt Ventures (MDV) chairman said tech startups need flexible funding before listing on Bursa Malaysia in Kuala Lumpur.",
+    "combined_text": "MDV collaborates with Bursa Malaysia on tech ecosystem financing\n\nMalaysia Debt Ventures (MDV) chairman said tech startups need flexible funding before listing on Bursa Malaysia in Kuala Lumpur.",
+    "description": "Challenging short acronyms (MDV) and repeated stock exchange name.",
+    "source_reference": "MDV clipping WdjZl0bRfZ",
+    "entities": [
+      {
+        "text": "MDV",
+        "label": "ORG",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "text": "Bursa Malaysia",
+        "label": "ORG",
+        "start": 22,
+        "end": 36
+      },
+      {
+        "text": "Malaysia Debt Ventures",
+        "label": "ORG",
+        "start": 66,
+        "end": 88
+      },
+      {
+        "text": "MDV",
+        "label": "ORG",
+        "start": 90,
+        "end": 93
+      },
+      {
+        "text": "Bursa Malaysia",
+        "label": "ORG",
+        "start": 163,
+        "end": 177
+      },
+      {
+        "text": "Kuala Lumpur",
+        "label": "GPE",
+        "start": 181,
+        "end": 193
+      }
+    ]
+  },
+  {
+    "id": "eval_10_international_context",
+    "title": "Federal Reserve interest rate decisions impact Asian equity markets",
+    "body": "Jerome Powell stated in Washington that central bank policies will remain restrictive until inflation stabilizes across the United States and Europe.",
+    "combined_text": "Federal Reserve interest rate decisions impact Asian equity markets\n\nJerome Powell stated in Washington that central bank policies will remain restrictive until inflation stabilizes across the United States and Europe.",
+    "description": "International financial entities, central bank chairman, federal cities and continents.",
+    "source_reference": "Global market report",
+    "entities": [
+      {
+        "text": "Federal Reserve",
+        "label": "ORG",
+        "start": 0,
+        "end": 15
+      },
+      {
+        "text": "Jerome Powell",
+        "label": "PERSON",
+        "start": 69,
+        "end": 82
+      },
+      {
+        "text": "Washington",
+        "label": "GPE",
+        "start": 93,
+        "end": 103
+      },
+      {
+        "text": "United States",
+        "label": "GPE",
+        "start": 193,
+        "end": 206
+      },
+      {
+        "text": "Europe",
+        "label": "LOC",
+        "start": 211,
+        "end": 217
+      }
+    ]
+  },
+  {
+    "id": "eval_11_zero_entities_advice",
+    "title": "Healthy workplace habits improve team productivity significantly",
+    "body": "Taking short walking breaks and drinking plenty of water during deep work sessions helps maintain focus and reduce stress levels.",
+    "combined_text": "Healthy workplace habits improve team productivity significantly\n\nTaking short walking breaks and drinking plenty of water during deep work sessions helps maintain focus and reduce stress levels.",
+    "description": "General lifestyle advice excerpt without any named entities.",
+    "source_reference": "Workplace productivity blog",
+    "entities": []
+  },
+  {
+    "id": "eval_12_repeated_person_entity",
+    "title": "Anwar Ibrahim leads bilateral discussions on green economy",
+    "body": "Prime Minister Anwar Ibrahim emphasized renewable energy in Putrajaya, where Anwar reiterated bilateral cooperation goals.",
+    "combined_text": "Anwar Ibrahim leads bilateral discussions on green economy\n\nPrime Minister Anwar Ibrahim emphasized renewable energy in Putrajaya, where Anwar reiterated bilateral cooperation goals.",
+    "description": "Same person entity appearing in title and body with partial name variation.",
+    "source_reference": "National news agency Bernama summary",
+    "entities": [
+      {
+        "text": "Anwar Ibrahim",
+        "label": "PERSON",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "Anwar Ibrahim",
+        "label": "PERSON",
+        "start": 75,
+        "end": 88
+      },
+      {
+        "text": "Putrajaya",
+        "label": "GPE",
+        "start": 120,
+        "end": 129
+      },
+      {
+        "text": "Anwar",
+        "label": "PERSON",
+        "start": 137,
+        "end": 142
+      }
+    ]
+  }
+]

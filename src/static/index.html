@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article Named-Entity Recognition Service</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+  <div class="app-container">
+    <!-- <header>
+      <div>
+        <h1 class="brand-title">Article Named-Entity Recognition Service</h1>
+        <p class="subtitle">Extract and classify named entities from article title and body with exact character
+          boundaries.</p>
+      </div>
+    </header> -->
+
+    <div class="main-layout">
+      <!-- Input Panel -->
+      <section class="panel-card" id="input-panel">
+        <div class="panel-title">
+          <span>Article Input</span>
+        </div>
+
+        <div class="samples-toolbar">
+          <span class="sample-label">Examples:</span>
+          <div id="samples-container" style="display: flex; gap: 0.35rem; flex-wrap: wrap;"></div>
+        </div>
+
+        <div id="alert-box" class="alert-box alert-error"></div>
+
+        <form id="ner-form">
+          <div class="form-group">
+            <label for="article-title">
+              <span>Title</span>
+              <span class="char-counter" id="title-counter">0 / 1000</span>
+            </label>
+            <input type="text" id="article-title" name="title" placeholder="Enter article headline..." required>
+          </div>
+
+          <div class="form-group">
+            <label for="article-body">
+              <span>Body</span>
+              <span class="char-counter" id="body-counter">0 / 50000</span>
+            </label>
+            <textarea id="article-body" name="body" placeholder="Enter full article text..." required></textarea>
+          </div>
+
+          <div class="model-selector-row">
+            <label for="model-select">Model:</label>
+            <select id="model-select" name="model">
+              <option value="adapted" selected>Adapted News Pipeline (Calibrated)</option>
+              <option value="baseline">Baseline Model (spaCy Pretrained - Auto en / zh)</option>
+            </select>
+          </div>
+
+          <button type="submit" id="submit-btn" class="btn-submit">
+            <div class="spinner" id="btn-spinner"></div>
+            <span id="btn-text">Extract Entities</span>
+          </button>
+        </form>
+      </section>
+
+      <!-- Results Panel -->
+      <section class="panel-card" id="results-card">
+        <div class="panel-title">
+          <span>Extraction Output</span>
+          <div class="results-header">
+            <span class="stat-pill" id="total-count">0 entities</span>
+            <span class="stat-pill" id="model-used">Model: Standby</span>
+            <span class="stat-pill" id="lang-detected" style="display:none;">Lang: EN</span>
+          </div>
+        </div>
+
+        <div id="empty-state" class="empty-state">
+          <h3>No Entities Yet</h3>
+          <p>Submit an article using the form on the left or select an example preset.</p>
+        </div>
+
+        <div id="results-content" style="display: none;">
+          <div class="entity-chips-container" id="entity-chips"></div>
+
+          <div class="tabs-nav">
+            <button type="button" class="tab-btn active" data-tab="tab-highlight">Text Highlights</button>
+            <button type="button" class="tab-btn" data-tab="tab-table">Table View</button>
+            <button type="button" class="tab-btn" data-tab="tab-json">JSON Output</button>
+          </div>
+
+          <div class="tab-content active" id="tab-highlight">
+            <div class="highlighted-viewer" id="highlight-viewer"></div>
+          </div>
+
+          <div class="tab-content" id="tab-table">
+            <div class="table-wrapper">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Original Entity</th>
+                    <th>Category</th>
+                    <th>Offsets (Start - End)</th>
+                  </tr>
+                </thead>
+                <tbody id="table-body"></tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="tab-content" id="tab-json">
+            <pre class="json-viewer" id="json-viewer"></pre>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+
+</html>

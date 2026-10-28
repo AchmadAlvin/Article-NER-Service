@@ -1,0 +1,22 @@
+# Python & Virtual Environment
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large raw dataset exports (prevent duplicating in submission repos as per PDF instructions)
+use_cases/pnm_study_case/sample/*.csv
+!use_cases/pnm_study_case/sample/clipping-information.txt
+
+# Generated workflow documentation & PDF artifacts
+workflow_dokumentasi.html
+workflow_dokumentasi.pdf
+generate_pdf.py
+

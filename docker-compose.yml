@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  ner-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ner-article-service:latest
+    container_name: ner_article_fastapi
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+    restart: unless-stopped
